@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Bahnschrift;
+}
+
+h1 {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: black;
+    color: white;
+    padding: 1em 0 1em 1em;
+}
+
+h2 {
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+p {
+    padding: 1em 0 1em 1em;
+    font-size: 20px;
+}
+
+main table {
+    margin-left: 1em;
+}
+
+nav {
+    padding: 2em 0 2em 0;
+    border: 3px solid black;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+}
+
+nav ul li {
+    font-size: 30px;
+}
+
+nav ul li a {
+    display: inline-block;
+    position: relative;
+    color: black;
+    text-decoration: none;
+    padding-left: 2em;
+}
+
+#voegToe, #Overzicht, #Home {
+    color: orange;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 6px;
+}
+
+tr th {
+    background-color: orange;
+    color: white;
+}
+
+
+div ul li  {
+    padding-left: 1em;
+    margin-bottom: 1em;
+    font-size: 22px;
+}
+
+footer {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 650px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}

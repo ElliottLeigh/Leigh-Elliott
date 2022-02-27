@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Leigh-Elliott:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/Leigh_Elliott_war</output-path>
+    <root id="archive" name="Leigh-Elliott_war.war">
+      <element id="artifact" artifact-name="Leigh-Elliott:war exploded" />
+    </root>
+  </artifact>
+</component>
